@@ -1,0 +1,51 @@
+package kadai;
+
+public class kadai12 {
+
+	public static void main(String[] args) {
+		int i = 4;
+
+
+		System.out.println("何月ですか");
+		switch(i) {
+		case 1:
+			System.out.println("冬");
+			break;
+		case 2:
+			System.out.println("冬");
+			break;
+		case 3:
+			System.out.println("春");
+			break;
+		case 4:
+			System.out.println("春");
+			break;
+		case 5:
+			System.out.println("春");
+			break;
+		case 6:
+			System.out.println("夏");
+			break;
+		case 7:
+			System.out.println("夏");
+			break;
+		case 8:
+			System.out.println("夏");
+			break;
+		case 9:
+			System.out.println("秋");
+			break;
+		case 10:
+			System.out.println("秋");
+			break;
+		case 11:
+			System.out.println("秋");
+			break;
+		case 12:
+			System.out.println("冬");
+			break;
+
+		}
+
+	}
+}
