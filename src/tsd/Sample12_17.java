@@ -12,9 +12,10 @@ public class Sample12_17 {
 		map.put("3333", "ItemC");
 		map.put("4444", "ItemD");
 		map.put("5555", "ItemE");
-		
+		System.out.println("変更");
+
 		String key = "2000";
-		
+
 		if(map.containsKey(key)) {
 			System.out.printf("%s に対応する商品は %s です%n" , key , map.get(key));
 		}else {
@@ -29,7 +30,7 @@ public class Sample12_17 {
 			}
 		}
 		NavigableMap<String , String> sub = map.subMap("2000", true, "3500", true);
-		
+
 		System.out.printf("2000 - 3500 : %s", sub);
 
 	}
